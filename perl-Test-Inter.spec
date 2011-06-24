@@ -1,9 +1,9 @@
 %define upstream_name    Test-Inter
-%define upstream_version 1.01
+%define upstream_version 1.02
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Framework for more readable interactive test scripts
 License:    GPL+ or Artistic
