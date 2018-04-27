@@ -1,10 +1,10 @@
 %define modname	Test-Inter
-%define modver 1.05
+%define modver 1.07
 
 Summary:	Framework for more readable interactive test scripts
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -41,8 +41,7 @@ both of which have prevented me from ever using them:
 %makeinstall_std
 
 %files
-%doc README LICENSE ChangeLog META.yml
+%doc README META.yml
+%license LICENSE
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
-
