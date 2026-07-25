@@ -1,14 +1,14 @@
 %define modname	Test-Inter
-%define modver 1.07
+%define modver 1.13
 
 Summary:	Framework for more readable interactive test scripts
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	4
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-Inter-%{modver}.tar.gz
+Url:		https://github.com/SBECK-github/Test-Inter
+Source0:	https://cpan.metacpan.org/authors/id/S/SB/SBECK/Test-Inter-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(File::Basename)
